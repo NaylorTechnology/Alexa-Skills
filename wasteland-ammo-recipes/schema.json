@@ -1,0 +1,285 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "wasteland ammo recipes",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "craftingrecipe",
+                    "slots": [
+                        {
+                            "name": "ammotype",
+                            "type": "ammotype"
+                        }
+                    ],
+                    "samples": [
+                        " how do i make {ammotype} ammo",
+                        "{ammotype}",
+                        "what materials do i need to make a {ammotype} round",
+                        "what materials are needed for {ammotype}",
+                        "what do i need to make some {ammotype}",
+                        "what do i need to make some {ammotype} ammo",
+                        "what do i need for {ammotype}",
+                        "how do i make {ammotype}",
+                        "how do i make a {ammotype} round"
+                    ]
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "ammotype",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "missile",
+                                "synonyms": [
+                                    "rocket launcher",
+                                    "rocket"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mini nuke",
+                                "synonyms": [
+                                    "fatman ammo",
+                                    "big boom"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "40mm grenade",
+                                "synonyms": [
+                                    "40 mm",
+                                    "40 millimetre",
+                                    "40 mil grenade"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "plasma core"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "plasma cartridge"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "gamma round"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fusion core"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fusion cell"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fuel"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cryo cell",
+                                "synonyms": [
+                                    "cryo round"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "2mm ec",
+                                "synonyms": [
+                                    "2 millimetre ",
+                                    "2 mil",
+                                    "2mm"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "syringer",
+                                "synonyms": [
+                                    "dart"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "shotgun shell",
+                                "synonyms": [
+                                    "shotgun ammo",
+                                    "shell"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "railway spike"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "harpoon",
+                                "synonyms": [
+                                    "spikey boi"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "flare"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "crossbow bolt",
+                                "synonyms": [
+                                    "bolt"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cannon ball"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "5mm",
+                                "synonyms": [
+                                    "5 millimetre",
+                                    "five"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "5.56mm",
+                                "synonyms": [
+                                    "5.56 millimetre",
+                                    "5.56"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "10 mm",
+                                "synonyms": [
+                                    "ten mil",
+                                    "ten millimetre",
+                                    "10 millimetre ",
+                                    "10 mil"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "50 calibre ball",
+                                "synonyms": [
+                                    "50 ball"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "50",
+                                "synonyms": [
+                                    "50 cal"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "45"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "44"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "38"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "308"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
