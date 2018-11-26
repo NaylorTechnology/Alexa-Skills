@@ -1,0 +1,38 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "digispark helper",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "PinIntent",
+                    "slots": [
+                        {
+                            "name": "value",
+                            "type": "AMAZON.NUMBER"
+                        }
+                    ],
+                    "samples": [
+                        "what does pin  {value} do",
+                        "whats pin {value} for",
+                        "what does the physical pin {value} do",
+                        "what does the pin {value} do",
+                        "what does the pin number {value} do"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
