@@ -8,3 +8,16 @@ A skill that when given a physical pin number will return what that pin is capab
 # Digispark Helper
 
 # Resistor Colors
+
+# Wasteland Ammo Recipes
+https://www.amazon.co.uk/Naylor-Technology-Wasteland-Ammo-Recipes/dp/B07KK7L51S 
+
+# Wasteland Junk
+https://www.amazon.co.uk/Naylor-Technology-Wasteland-junk/dp/B07KK6T198
+
+# Wasteland Bobbleheads
+https://www.amazon.co.uk/Naylor-Technology-Wasteland-Bobbleheads/dp/B07KK775ZL
+
+
+# Wastelant Weapons
+https://www.amazon.co.uk/Naylor-Technology-Wasteland-Weapons/dp/B07KN7VMQH
